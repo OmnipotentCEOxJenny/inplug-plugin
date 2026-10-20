@@ -6,6 +6,17 @@ Invented by Rob Domaine / Omnipotent Media LLC.
 
 ![InPlug Plugin logo](assets/logo.png)
 
+## Project status: done, pending, uncertain
+**Done**
+- 2026-10-20: v1.0.1 host-AI test from a fresh clone: the three reviewer prompts answered with the skills loaded, checked against the official sources (11/11 checks PASS), and the hello-notes scaffold created and validated (8/8 PASS).
+
+**Pending**
+- In-app load test in Cursor (`~/.cursor/plugins/local`) or Grok Build: not done; the build computer has neither app.
+- Marketplace submission: not submitted.
+
+**Uncertain**
+- Whether Grok Build reads the `.cursor-plugin/plugin.json` manifest format (UNVERIFIED).
+
 ## Quick start
 1. Install from https://github.com/OmnipotentCEOxJenny/inplug-plugin (copy to `~/.cursor/plugins/local/inplug-plugin` and reload).
 2. Ask: "What does the Grok Bot marketplace submit form need, and how long can my description be?"
@@ -54,6 +65,7 @@ Written to be fully transparent. If something here is wrong or out of date, plea
 - Its facts about forms, limits and terms were read from the official pages on 2026-10-20 and can go out of date; always re-check the live page before submitting.
 - It does not run code, host an MCP server, or test your plugin inside a host app; you run the tests. Submitting needs your own accounts and sign-in.
 - Review times, ranking and how Grok Bot handles updates are not published, so they are marked UNVERIFIED.
+- It has been tested by an AI reading its skills and on the build computer, but not yet loaded inside the Cursor app or Grok Build.
 - Marketplace status: not submitted yet; once submitted it stays pending until approved.
 - It collects no data, needs no account or API key, and costs nothing.
 - Translations: the 23 translated summaries in TRANSLATIONS.md are machine-made and have not been reviewed by native speakers. The English text is authoritative.

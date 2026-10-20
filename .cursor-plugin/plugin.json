@@ -1,0 +1,13 @@
+{
+  "name": "inplug-plugin",
+  "displayName": "InPlug Plugin",
+  "version": "1.0.0",
+  "description": "Free guide to plugin marketplaces: how the Grok Bot and Cursor marketplaces work, how to build a plugin (manifest, skills, rules, MCP) and how to test and improve it honestly.",
+  "author": { "name": "Rob Domaine / Omnipotent Media LLC" },
+  "publisher": "Omnipotent Media LLC",
+  "homepage": "https://github.com/OmnipotentCEOxJenny/inplug-plugin",
+  "repository": "https://github.com/OmnipotentCEOxJenny/inplug-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": ["plugins", "marketplace", "plugin-development", "mcp", "skills", "rules", "multilingual"]
+}

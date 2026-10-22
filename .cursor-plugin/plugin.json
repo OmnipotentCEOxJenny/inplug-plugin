@@ -12,6 +12,7 @@
   "license": "MIT",
   "logo": "assets/logo.png",
   "keywords": [
+    "inplug-plugin",
     "plugins",
     "plugin-marketplace",
     "plugin-development",
@@ -47,6 +48,7 @@
     "honest-testing",
     "developers",
     "learning",
-    "multilingual"
+    "multilingual",
+    "jenny-echo"
   ]
 }

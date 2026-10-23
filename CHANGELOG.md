@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3 (2026-10-23)
+- Search keywords: 34 to 40 (added PluginScaffold, PublisherTerms, SubmitForm, ReleaseCheck, LocalPluginInstall, PluginReview), per Rob's keyword rules.
+- Local tests re-run and passed. Not tested in-app. Not submitted to the marketplace.
+
 ## 1.0.2 (2026-10-21)
 - Added `tests/check_frontmatter.py`: a strict YAML front-matter check (PyYAML `safe_load`) for every SKILL.md and rules .mdc file, plus a plugin.json JSON check. Run `python3 tests/check_frontmatter.py` from the repo root; it catches the unquoted-colon bug fixed in PluginPulse 1.0.2.
 - No behavior changes to skills or rules.

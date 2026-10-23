@@ -5,7 +5,7 @@ description: Test, fix and release a better version of an existing plugin with s
 
 # Improve a plugin
 
-Follow `rules/pillars-and-scope.mdc`. Answer in the user's language; keep commands, file names and status labels unchanged.
+Follow `rules/scope.mdc`. Answer in the user's language; keep commands, file names and status labels unchanged.
 
 1. **Test for real:** manifest parses as JSON; every skill and rule has valid front-matter; every path in the manifest exists; the logo is square and its public URL returns HTTP 200; form texts are length-checked with code; run one worked example of each skill.
 2. **Fix and version:** bump the version in sequence (1.0.0 to 1.0.1 for fixes, 1.1.0 for features). Add a CHANGELOG entry. Create a new tag; never move, delete or rewrite a published tag, and never back-fill skipped versions.

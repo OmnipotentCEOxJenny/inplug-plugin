@@ -5,7 +5,7 @@ description: Scaffold a new free plugin in the Cursor plugin format (manifest, s
 
 # Build a plugin
 
-Follow `rules/pillars-and-scope.mdc`. Answer in the user's language; keep commands, file names and status labels unchanged. Source: https://cursor.com/docs/plugins (read 2026-10-20).
+Follow `rules/scope.mdc`. Answer in the user's language; keep commands, file names and status labels unchanged. Source: https://cursor.com/docs/plugins (read 2026-10-20).
 
 1. **Layout (Cursor Plugin):** `.cursor-plugin/plugin.json`, `rules/*.mdc`, `skills/<name>/SKILL.md`, optional `mcp.json`. The manifest needs only `name`; add `displayName`, `version`, `description`, `author`, `license`, `repository`, `logo`. An Agent Plugin (open standard) instead has a root `plugin.json`. In `mcp.json` use `${CURSOR_PLUGIN_ROOT}` for the plugin root.
 2. **Skills:** each `SKILL.md` starts with YAML front-matter holding `name` (matches the folder) and `description` (what it does and when to use it).

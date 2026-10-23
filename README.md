@@ -37,17 +37,11 @@ Invented by Rob Domaine / Omnipotent Media LLC.
 - Builder: Jenny Echo
 - InPlug Plugin is independent and not endorsed by xAI or Anysphere (Cursor).
 
-## Rob Domaine's four pillars
-1. Trustworthy, honest, real data, truthful: never invent; anything unchecked is marked UNVERIFIED.
-2. Use only legitimate means: legitimate, proven sources and methods; unreliable sources rejected.
-3. Double-check everything: every finding is confirmed by two independent checks, and the report shows both.
-4. Stay within the law and rules always: local, county, state, federal and platform rules.
-
 ## Components
 - `skills/marketplace-guide`: marketplace forms, limits and publisher terms.
 - `skills/build-a-plugin`: plugin layout, manifest, skills, rules, MCP (SDK 2.x note).
 - `skills/improve-a-plugin`: tests, sequential versions, tags, honest limits, translations.
-- `rules/pillars-and-scope.mdc`: Rob Domaine's four pillars and language rules.
+- `rules/scope.mdc`: language rules.
 - `examples/submission-checklist.md`: a worked example run.
 - `TRANSLATIONS.md`: title, description and honest assessment in 23 languages (machine-made).
 

@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.6 (2026-10-23)
+- Remove internal notes from the README, translations, rule file (renamed to `rules/scope.mdc` where applicable) and skills. Local tests re-run and passed. Not tested in-app. Not submitted to the marketplace.
+
 ## 1.0.5 (2026-10-23)
 - README: new "Testing status" section. Local automated tests pass; in-app testing is not yet completed. Records that the marketplace submit form's "tested locally and in-app" confirmation (2026-10-20) was checked in error before any in-app test; in-app testing is pending. Also corrects the README line that said InPlug Plugin was not submitted (it was submitted 2026-10-20).
 - Docs only; no behavior changes. Local tests re-run and passed. Not tested in-app. Not resubmitted.
@@ -17,10 +20,10 @@
 - No behavior changes to skills or rules.
 
 ## 1.0.1 (2026-10-20)
-- Rule description now states InPlug Plugin's own scope (it wrongly said Creative Switchboard); pillars text unchanged.
+- Rule description now states InPlug Plugin's own scope (it wrongly said Creative Switchboard).
 - build-a-plugin: warns that YAML values containing ": " must be quoted (bug found while scaffolding hello-notes in the host test).
 - build-a-plugin: documents the local install routes without marketplace approval (Cursor local folder; Grok Build CLI, marked UNVERIFIED for this manifest format) and that Grok Bot has none documented.
 - README: project status with the host-AI test results and the honest limit that no in-app Cursor or Grok Bot load has been done yet.
 
 ## 1.0.0 (2026-10-20)
-- First release: marketplace-guide, build-a-plugin and improve-a-plugin skills, pillars rule, worked example, logo, title/description/limits in 23 languages (machine-made, not native-reviewed).
+- First release: marketplace-guide, build-a-plugin and improve-a-plugin skills, worked example, logo, title/description/limits in 23 languages (machine-made, not native-reviewed).

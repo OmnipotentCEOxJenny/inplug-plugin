@@ -5,7 +5,7 @@ description: Explain how plugin marketplaces work and prepare a submission, cove
 
 # Marketplace guide
 
-Follow `rules/pillars-and-scope.mdc`. Answer in the user's language; keep commands, file names and status labels unchanged. Facts below were read from the official pages on 2026-10-20; tell the user to re-check the live page before submitting, because forms and terms change.
+Follow `rules/scope.mdc`. Answer in the user's language; keep commands, file names and status labels unchanged. Facts below were read from the official pages on 2026-10-20; tell the user to re-check the live page before submitting, because forms and terms change.
 
 ## Grok Bot marketplace (https://x.ai/bot/marketplace/submit-a-plugin)
 Fields seen on the form (2026-10-20): First Name and Last Name (max 40 each), Work Email, Organization Name (max 100), Organization Handle (max 40, no spaces or capitals), Website URL (optional), Logotype URL (1:1 SVG or PNG with a background plate, public URL), where to be listed (Grok (coming soon), Grok Bot, Cursor), MCP Server URL or Public GitHub Repository, Brief Description (max 600 characters), Testing Instructions (max 600 characters), and the checkbox "I've tested this plugin locally and in-app and confirmed it works as expected".

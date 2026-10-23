@@ -1,7 +1,7 @@
 {
   "name": "inplug-plugin",
   "displayName": "InPlug Plugin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Free guide to plugin marketplaces: how the Grok Bot and Cursor marketplaces work, how to build a plugin (manifest, skills, rules, MCP) and how to test and improve it honestly.",
   "author": {
     "name": "Rob Domaine / Omnipotent Media LLC"

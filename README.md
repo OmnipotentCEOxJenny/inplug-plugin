@@ -12,10 +12,15 @@ Invented by Rob Domaine / Omnipotent Media LLC.
 
 **Pending**
 - In-app load test in Cursor (`~/.cursor/plugins/local`) or Grok Build: not done; the build computer has neither app.
-- Marketplace submission: not submitted.
+- Marketplace review: submitted 2026-10-20, pending, no approval yet. (This line previously said "not submitted"; that was wrong and is corrected in 1.0.5.)
 
 **Uncertain**
 - Whether Grok Build reads the `.cursor-plugin/plugin.json` manifest format (UNVERIFIED).
+
+## Testing status (corrected 2026-10-23)
+- Local automated tests: PASS on 2026-10-23 (`python3 tests/check_frontmatter.py`: plugin.json is valid JSON and every SKILL.md and rules file has valid front matter). Earlier local tests are listed under Project status above.
+- In-app testing (loading the plugin inside the Cursor app or Grok Build): **not yet completed**. It is pending.
+- Correction: when this plugin was submitted to the Grok Bot marketplace (2026-10-20), the submit form's "I have tested this plugin locally and in-app" confirmation was checked in error. Only local testing had been done. This was a mistake by Jenny Echo, the AI assistant that built and submitted the plugin, not a choice by the publisher, Rob Domaine. This plugin should not be described as tested in-app until that test has actually been done and recorded here.
 
 ## Quick start
 1. Install from https://github.com/OmnipotentCEOxJenny/inplug-plugin (copy to `~/.cursor/plugins/local/inplug-plugin` and reload).
